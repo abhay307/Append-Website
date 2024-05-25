@@ -1,0 +1,405 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+ html,
+ body{
+	 width:100%;
+	 height:100%;
+ }
+ body{
+	 overflow-x:hidden;
+ }
+ 
+.navbar-brand{
+	
+	position:relative;
+	padding-right:9.4vw;
+}
+.banner{
+	background-image:url("img/hero-bg.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.overlay{
+	background-color:#00000080;
+	width:100%;
+	height:100%;
+}
+#check{
+	height:20px;
+	width:20px;
+	position:relative;
+	top:3px;
+	
+	
+}
+.brand img{
+	
+	filter:grayscale(100%);
+	opacity:0.4;
+	transition:0.2s;
+	height:50px;
+	width:100px;
+
+}
+.brand img:hover{
+	filter:grayscale(0);
+	opacity:1;
+}
+#aboutdiv{
+	position:relative;
+	top:7vw;
+}
+#abouth4{
+	width:150px;
+	background-color:#eea7a740;
+	
+}
+.count-bg{
+	background-image:url("img/stats-bg.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+.services-section h2:before,
+.services-section h2:after
+{
+	content:"";
+	width:50px;
+	height:3px;
+	background:red;
+	display:inline-block;
+	position:relative;
+	bottom:10px;
+	margin:0px 10px;
+	
+}
+
+.serv0:hover h2{
+	color:red;
+}
+.image{
+	width:80%;
+	height:350px;
+	border:5px solid white;
+	background-image:url("img/features-light-2.jpg");
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	left:7.5vw;
+	top:-30px;
+}
+
+.features-image-2{
+	width:100%;
+	height:100%;
+	border:5px solid white;
+	background-image:url("img/features-light-1.jpg");
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	top:60px;
+	right:10vw;
+}
+
+.features-image-3{
+	border:5px solid white;
+	background-image:url("img/features-light-3.jpg");
+	background-size:cover;
+	
+	background-position:center;
+	height:400px;
+}
+#tick::before{
+	content:"✅";
+}
+#nottick::before{
+	content:"❌";
+}
+
+.img1{
+	width:100%;
+	height:400px;
+	background-image:url("img/portfolio-1.jpg");
+	background-size:cover;
+	background-position:center;
+	
+	
+}
+.portfolio-image:hover .details{
+	display:block;
+}
+.img2{
+	width:100%;
+	height:700px;
+	background-image:url("img/portfolio-2.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.img3{
+	width:100%;
+	height:250px;
+	background-image:url("img/portfolio-3.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.img4{
+	width:100%;
+	height:700px;
+	background-image:url("img/portfolio-4.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.img5{
+	width:100%;
+	height:250px;
+	background-image:url("img/portfolio-5.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.img6{
+	width:100%;
+	height:290px;
+	background-image:url("img/portfolio-6.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.img7{
+	width:100%;
+	height:290px;
+	background-image:url("img/portfolio-7.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.img8{
+	width:100%;
+	height:290px;
+	background-image:url("img/portfolio-8.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.img9{
+	width:100%;
+	height:290px;
+	background-image:url("img/portfolio-9.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.details{
+	width:100%;
+	height:60px;
+	background-color:#ffffff96;
+	position:relative;
+	top:calc(100% - 60px);
+	display:none;
+	padding:5px 0px;
+	
+}
+
+.scale{
+	padding:5vw 0;
+	border-radius:50px;
+	
+	
+	
+}
+.scale i{
+	font-size:3vw;
+	padding:2vw;
+	border-radius:50%;
+	background-color:red;
+	color:white;
+}
+.scale span{
+	font-size:60px;
+}
+#pricing2{
+	border:2px solid snow;
+	padding:4vw 0;
+	border-radius:50px;
+	height:500px;
+	position:relative;
+	
+}
+
+
+#pricing-center{
+	border:5px solid red;
+	
+}
+
+.AppTeam{
+	
+	background-color:white;
+	
+	
+}
+.AppTeam .image6{
+	border:7px solid white;
+	width:70%;
+	margin:0px auto;
+	height:270px;
+	border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	background-image:url("img/team-1.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+.overlay-2{
+	
+	display:none;
+}
+.overlay-2 .xyz{
+	width:100%;
+	height:100%;
+	background:#00000066;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:white;
+	gap:20px;
+	font-size:25px;
+	position:absolute;	
+}
+.overlay-2 i:hover{
+	color:red;
+}
+.AppTeam:hover .overlay-2{
+	display:block;
+}
+.AppTeam .image1{
+	border:7px solid white;
+	width:70%;
+	margin:0px auto;
+	height:270px;
+	border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	background-image:url("img/team-2.jpg");
+	background-size:cover;
+	background-position:center;
+}
+.AppTeam .image2{
+	border:7px solid white;
+	width:70%;
+	margin:0px auto;
+	height:270px;
+	border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	background-image:url("img/team-3.jpg");
+	background-size:cover;
+	background-position:center;
+}
+.AppTeam .image3{
+	border:7px solid white;
+	width:70%;
+	margin:0px auto;
+	height:270px;
+	border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	background-image:url("img/team-4.jpg");
+	background-size:cover;
+	background-position:center;
+}
+.AppTeam .image4{
+	border:7px solid white;
+	width:70%;
+	margin:0px auto;
+	height:270px;
+	border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	background-image:url("img/team-5.jpg");
+	background-size:cover;
+	background-position:center;
+}
+.AppTeam .image5{
+	border:7px solid white;
+	width:70%;
+	margin:0px auto;
+	height:270px;
+	border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	background-image:url("img/team-6.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+.call{
+	background-image:url("img/cta-bg.jpg");
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+.recentpost{
+	
+	border-radius:20px;
+	overflow:hidden;
+}
+.recentpost img{
+	width:100%;
+	
+}
+.img-details{
+	
+	width:45%;
+	height:80px;
+	display:flex;
+	gap:5px;
+	justify-content:space-between;
+	padding:5px 10px;
+}
+.img-details img{
+	width:40%;
+	height:80%;
+	border-radius:50%;
+}
+.contactform{
+	background-color:#eee;
+}
+
+.footericon i{
+	font-size:20px;
+	margin-right:15px;
+	padding:10px;
+	border:solid;
+	color:#aaa;
+	border-radius:50%;
+}
+.footericon i:hover{
+	color:red;
+	cursor:pointer;
+}
+.copyright{
+	background:#eee;
+	padding:10px 0px;
+	margin-bottom:-90px;
+}
+
+@media screen and (max-width:1324px) and (min-width:992px){
+	
+	.navbar-brand{
+	
+	position:relative;
+	padding-right:0vw;
+}
+
+
+
+
